@@ -2,7 +2,6 @@
 /// В главном потоке создается новый поток thread, исполняющий метод, 
 /// который непрерывно печатает символы в зависимости от подставляемой реализации.
 /// Одновременно главный поток непрерывно печатает символ 'x'.
-/// CLR назначает каждому потоку свой стек, так что локальные переменные хранятся раздельно.
 /// </summary>
 internal class Program
 {
@@ -33,12 +32,12 @@ internal class Program
                 });
                 break;
             case Choise.AnonymousFunc:
-                // Все время печатать 'Func@Run!'
+                // Все время печатать 'AnonymousFunc@Run!'
                 thread = new Thread(start: () =>
                 {
                     while (true)
                     {
-                        Console.Write("Func@Run!");
+                        Console.Write("AnonymousFunc@Run!");
                     }
                 });
                 break;
