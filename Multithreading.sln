@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_ThreadStart", "2_ThreadSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_ThreadStart", "3_ThreadStart\3_ThreadStart.csproj", "{F8EE03D1-918C-41CD-A104-BB99633C932A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_ThreadStart", "4_ThreadStart\4_ThreadStart.csproj", "{496FDB35-8CD2-443A-91E5-3F1FB78618EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F8EE03D1-918C-41CD-A104-BB99633C932A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8EE03D1-918C-41CD-A104-BB99633C932A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8EE03D1-918C-41CD-A104-BB99633C932A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{496FDB35-8CD2-443A-91E5-3F1FB78618EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{496FDB35-8CD2-443A-91E5-3F1FB78618EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{496FDB35-8CD2-443A-91E5-3F1FB78618EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{496FDB35-8CD2-443A-91E5-3F1FB78618EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
