@@ -20,7 +20,7 @@ internal class Program
         // Определяем и используем локальную переменную 'cycles'
         for (int cycles = 0; cycles < 5; cycles++)
         {
-            Console.Write(cycles);
+            Console.Write(cycles.ToString());
         }
     }
 }

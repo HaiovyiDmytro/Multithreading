@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_ThreadStart", "1_ThreadSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_ThreadStart", "2_ThreadStart\2_ThreadStart.csproj", "{3887F1D0-F1B7-46B5-845B-352C3864AB0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_ThreadStart", "3_ThreadStart\3_ThreadStart.csproj", "{F8EE03D1-918C-41CD-A104-BB99633C932A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3887F1D0-F1B7-46B5-845B-352C3864AB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3887F1D0-F1B7-46B5-845B-352C3864AB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3887F1D0-F1B7-46B5-845B-352C3864AB0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8EE03D1-918C-41CD-A104-BB99633C932A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EE03D1-918C-41CD-A104-BB99633C932A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EE03D1-918C-41CD-A104-BB99633C932A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EE03D1-918C-41CD-A104-BB99633C932A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
