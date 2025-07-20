@@ -22,6 +22,7 @@ internal class Program
     //    t.Start();
     //    t.Join();                       // Ожидаем завершения потока
     //}
+    // Будучи блокированным, поток не потребляет ресурсов CPU.
 }
 
 internal class ThreadTest
