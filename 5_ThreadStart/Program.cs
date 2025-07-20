@@ -15,6 +15,13 @@ internal class Program
         new Thread(tt.Go).Start();          // Новый стек для потока
         tt.Go();                            // Стек основного потока
     }
+
+    // Также поток может ожидать завершения другого потока, вызывая его метод Join:
+    //{
+    //    Thread t = new Thread(Go);      // Go – статический метод
+    //    t.Start();
+    //    t.Join();                       // Ожидаем завершения потока
+    //}
 }
 
 internal class ThreadTest
