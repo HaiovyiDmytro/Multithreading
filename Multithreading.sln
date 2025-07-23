@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThreadStart", "ThreadStart", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_ThreadStart", "1_ThreadStart", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_ThreadStart", "ThreadStart\1_ThreadStart\1_ThreadStart.csproj", "{D2E0F52A-281D-6D6D-48A3-677D3AB2AFF0}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_ThreadStart", "ThreadStart\4_ThreadStart\4_ThreadStart.csproj", "{891AEA40-2572-56F1-38CF-EBD3FC977899}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_ThreadStart", "ThreadStart\5_ThreadStart\5_ThreadStart.csproj", "{873C5BAF-5A0E-33A1-FA1D-D18D766D744C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_ParameterizedThreadStart", "2_ParameterizedThreadStart", "{949A9CCB-AD47-498B-96FC-402486AEB5B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
