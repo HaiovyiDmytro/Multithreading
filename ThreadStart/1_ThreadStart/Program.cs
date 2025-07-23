@@ -15,13 +15,18 @@ internal class Program
         switch (choise)
         {
             case Choise.SelfMethod:
-                thread = new(WriteY);
+                // ThreadStart можно упускать
+                thread = new Thread(new ThreadStart(WriteY));
+                thread = new Thread(WriteY);
                 break;
             case Choise.OuterMethod:
                 Internal @internal = new Internal();
+                // ThreadStart можно упускать
+                thread = new Thread(new ThreadStart(@internal.Go));
                 thread = new Thread(@internal.Go);
                 break;
             case Choise.Delegate:
+                // ThreadStart можно упускать
                 // Все время печатать 'delegate@Run!'
                 thread = new Thread(start: delegate ()
                 {
@@ -32,6 +37,7 @@ internal class Program
                 });
                 break;
             case Choise.AnonymousFunc:
+                // ThreadStart можно упускать
                 // Все время печатать 'AnonymousFunc@Run!'
                 thread = new Thread(start: () =>
                 {
